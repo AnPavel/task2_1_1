@@ -10,7 +10,7 @@ class MainKtTest {
         val previousSumma = 0.0
 
         val result = calculationCommission(typeCard, previousSumma, amount)
-        assertEquals(75, result)
+        assertEquals(175, result)
     }
 
     @Test
@@ -28,7 +28,7 @@ class MainKtTest {
         val typeCard = "MIR Card"
         val amount: Float = 150001.0F
         val previousSumma: Double = 0.0
-        //лимит в сутки
+        //Г«ГЁГ¬ГЁГІ Гў Г±ГіГІГЄГЁ
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
@@ -38,7 +38,7 @@ class MainKtTest {
         val typeCard = "MIR Card"
         val amount: Float = 600001.0F
         val previousSumma: Double = 0.0
-        //лимит в месяц
+        //Г«ГЁГ¬ГЁГІ Гў Г¬ГҐГ±ГїГ¶
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
@@ -68,7 +68,7 @@ class MainKtTest {
         val typeCard = "MasterCard"
         val amount: Float = 150001.0F
         val previousSumma: Double = 0.0
-        //лимит в сутки
+        //Г«ГЁГ¬ГЁГІ Гў Г±ГіГІГЄГЁ
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
@@ -78,7 +78,7 @@ class MainKtTest {
         val typeCard = "MasterCard"
         val amount: Float = 600001.0F
         val previousSumma: Double = 0.0
-        //лимит в месяц
+        //Г«ГЁГ¬ГЁГІ Гў Г¬ГҐГ±ГїГ¶
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
@@ -99,7 +99,7 @@ class MainKtTest {
         val typeCard = "VK Pay"
         val amount: Float = 15001.0F
         val previousSumma: Double = 0.0
-        //лимит в день
+        //Г«ГЁГ¬ГЁГІ Гў Г¤ГҐГ­Гј
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
@@ -109,7 +109,7 @@ class MainKtTest {
         val typeCard = "VK Pay"
         val amount: Float = 100000.0F
         val previousSumma: Double = 0.0
-        //лимит в месяц
+        //Г«ГЁГ¬ГЁГІ Гў Г¬ГҐГ±ГїГ¶
         val result = calculationCommission(typeCard, previousSumma, amount)
         assertEquals(0, result)
     }
