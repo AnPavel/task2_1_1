@@ -20,7 +20,7 @@ class MainKtTest {
         val previousSumma: Double = 0.0
 
         val result = calculationCommission(typeCard, previousSumma, amount)
-        assertEquals(35, result)
+        assertEquals(135, result)
     }
 
     @Test
